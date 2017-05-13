@@ -1,5 +1,10 @@
 .App {
+  
   text-align: center;
+}
+
+.Spacer{
+  height: 270px;
 }
 
 .App-logo {

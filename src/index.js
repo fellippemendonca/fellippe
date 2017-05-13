@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './app/App';
 import './index.css';
 
-//const element = (<h1>Hello!</h1>);
-
 function tick() {
   ReactDOM.render(
     <App />,
