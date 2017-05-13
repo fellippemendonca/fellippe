@@ -1,29 +1,28 @@
-.App {
+.Welcome {
   
   text-align: center;
 }
 
-.Spacer{
-  height: 270px;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 5s linear;
+.Welcome-logo {
+  animation: Welcome-logo-spin infinite 5s linear;
   height: 80px;
 }
 
-.App-header {
+.Welcome-header {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
   background-color: rgba(0,0,0,0.3);
   height: 230px;
   padding: 10px;
   color: white;
 }
 
-.App-intro {
+.Welcome-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+@keyframes Welcome-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }

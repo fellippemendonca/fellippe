@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app/App';
+import Welcome from './app/welcome/Welcome';
 import './index.css';
 
-function tick() {
-  ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-  );
-}
-setInterval(tick, 1000);
+ReactDOM.render(
+  <Welcome owner='Fellippe'/>,
+  document.getElementById('root')
+);
