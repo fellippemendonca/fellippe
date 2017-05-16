@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+.Menu {
+  margin: 0px;
+}
+
+.Nav-1 {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0,0,0,0.3);
+}
+
+.Link-1 {
+  transition: 0.5s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.Link-1:hover {
+  background-color: rgba(255,255,255,0.5);
+  color: #000000;
+  padding: 10px 10px;
+}
