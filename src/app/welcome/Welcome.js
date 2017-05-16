@@ -11,6 +11,7 @@ function Welcome(props) {
         <img src={logo} className="Welcome-logo" alt="logo" />
         <Clock/>
       </div>
-    </div>);
+    </div>
+  );
 }
 export default Welcome;
