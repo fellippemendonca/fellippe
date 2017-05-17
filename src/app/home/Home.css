@@ -8,14 +8,7 @@
 }
 
 .Home-header {
-  animation: backgroundHome 0.3s linear;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  background-color: rgba(0,0,0,0.3);
-  height: 230px;
-  padding: 10px;
-  color: white;
+  background-color: rgba(0,0,0,0.0);
 }
 
 .Home-intro {
@@ -27,14 +20,3 @@
   to { transform: rotate(360deg); }
 }
 
-@keyframes backgroundHome {
-  from {
-    background-color: rgba(0,0,0,0.0);
-    color: rgba(0,0,0,0.0);
-  }
-
-  to {
-    background-color: rgba(0,0,0,0.3);
-    color: white;
-  }
-}

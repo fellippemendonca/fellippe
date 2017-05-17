@@ -24,3 +24,27 @@
   color: #000000;
   padding: 10px 10px;
 }
+
+.Contents {
+  animation: backgroundContents 0.5s linear;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 0; left: 0; bottom: 0; right: 0;
+  /*height: 400px;*/
+  background-color: rgba(0,0,0,0.6);
+  padding: 0px;
+  color: white;
+}
+
+@keyframes backgroundContents {
+  from {
+    background-color: rgba(0,0,0,0.0);
+    color: rgba(0,0,0,0.0);
+  }
+
+  to {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+  }
+}
