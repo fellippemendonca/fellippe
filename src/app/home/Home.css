@@ -1,28 +1,28 @@
-.Welcome {
+.Home {
   text-align: center;
 }
 
-.Welcome-logo {
-  animation: Welcome-logo-spin infinite 5s linear;
+.Home-logo {
+  animation: Home-logo-spin infinite 5s linear;
   height: 80px;
 }
 
-.Welcome-header {
+.Home-header {
   animation: backgroundHome 0.3s linear;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.3);
   height: 230px;
   padding: 10px;
   color: white;
 }
 
-.Welcome-intro {
+.Home-intro {
   font-size: large;
 }
 
-@keyframes Welcome-logo-spin {
+@keyframes Home-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
@@ -31,12 +31,10 @@
   from {
     background-color: rgba(0,0,0,0.0);
     color: rgba(0,0,0,0.0);
-    height: 400px;
   }
 
   to {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     color: white;
-    height: 230px;
   }
 }

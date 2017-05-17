@@ -1,16 +1,16 @@
 import React from 'react';
-import Welcome from './welcome/Welcome';
+import Home from './home/Home';
 import Bio from './bio/Bio';
 import Work from './work/Work';
 import Contact from './contact/Contact';
 
 function setPage(props) {
   switch(props.name) {
-    case 'home': return <Welcome owner='Fellippe'/>;
+    case 'home': return <Home owner='Fellippe'/>;
     case 'bio': return <Bio owner='bio'/>;
     case 'work': return <Work owner='work'/>;
     case 'contact': return <Contact owner='contact'/>;
-    default: return <Welcome owner='Fellippe'/>;
+    default: return <Home owner='Fellippe'/>;
   }
 }
 
