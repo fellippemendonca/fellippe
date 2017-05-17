@@ -1,24 +1,49 @@
 import React from 'react';
 import './Menu.css';
+import PageSelect from '../PageSelect';
+
 
 class Menu extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) { 
+    super(props);
+    this.state = {page: 'home'};
+    this.getState = this.getState.bind(this);
+    this.homeMenuClick = this.homeMenuClick.bind(this);
+    this.bioMenuClick = this.bioMenuClick.bind(this);
+    this.workMenuClick = this.workMenuClick.bind(this);
+    this.contactMenuClick = this.contactMenuClick.bind(this);
+  }
 
-  // componentDidMount() { }
-
-  // componentWillUnmount() { }
+  getState(){
+    return this.props;
+  }
+  homeMenuClick(e) {
+    e.preventDefault();
+    this.setState({page: 'home'});
+  }
+  bioMenuClick(e) {
+    e.preventDefault();
+    this.setState({page: 'bio'});
+  }
+  workMenuClick(e) {
+    e.preventDefault();
+    this.setState({page: 'work'});
+  }
+  contactMenuClick(e) {
+    e.preventDefault();
+    this.setState({page: 'contact'});
+  }
 
   render() {
     return (
       <div className="Menu">
         <nav className="Nav-1">
-          <a className="Link-1" href="#">Home</a>
-          <a className="Link-1" href="#">Bio</a>
-          <a className="Link-1" href="#">Work</a>
-          <a className="Link-1" href="#">Contact</a>
+          <a className="Link-1" href="" onClick={this.homeMenuClick}>Home</a>
+          <a className="Link-1" href="" onClick={this.bioMenuClick}>Bio</a>
+          <a className="Link-1" href="" onClick={this.workMenuClick}>Work</a>
+          <a className="Link-1" href="" onClick={this.contactMenuClick}>Contact</a>
         </nav>
+        <PageSelect name={this.state.page}/>
       </div>
     );
   }

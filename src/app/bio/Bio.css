@@ -1,0 +1,28 @@
+.Bio {
+  text-align: center;
+}
+
+.Bio-header{
+  animation: backgroundBio 0.3s linear;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-color: rgba(0,0,0,0.5);
+  height: 130px;
+  padding: 0px;
+  color: white;
+}
+
+@keyframes backgroundBio {
+  from {
+    background-color: rgba(0,0,0,0.0);
+    color: rgba(0,0,0,0.0);
+    height: 300px;
+  }
+
+  to {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    height: 130px;
+  }
+}
