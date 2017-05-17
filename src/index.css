@@ -9,10 +9,10 @@ html {
 body {
   background-color: #222;
   background-image: url("./assets/images/Valley-Wallpapers-1920x1080-6.jpg");
-  background-size: cover;
+  /*background-size: cover;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   overflow: 'hidden';
   margin: 0;
   padding: 0;
