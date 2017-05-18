@@ -4,8 +4,6 @@ import Menu from './app/menu/Menu';
 import './index.css';
 
 ReactDOM.render(
-  <div>
-    <Menu/>
-  </div>,
+  <Menu/>,
   document.getElementById('root')
 );

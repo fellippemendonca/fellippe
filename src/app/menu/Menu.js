@@ -5,7 +5,7 @@ import PageSelect from '../PageSelect';
 
 
 class Menu extends React.Component {
-  constructor(props) { 
+  constructor(props) {
     super(props);
     this.state = {page: 'home'};
     this.getState = this.getState.bind(this);
@@ -38,21 +38,13 @@ class Menu extends React.Component {
   render() {
     return (
       <div className="Menu">
-        <div class="Table">
-          <div class="row">
-            <div class="col-lg-10">
-              <nav className="Nav-1">
-                <a className="Link-1" href="" onClick={this.homeMenuClick}>Home</a>
-                <a className="Link-1" href="" onClick={this.bioMenuClick}>Bio</a>
-                <a className="Link-1" href="" onClick={this.workMenuClick}>Work</a>
-                <a className="Link-1" href="" onClick={this.contactMenuClick}>Contact</a>
-              </nav>
-            </div>
-            <div class="col-lg-2">
-             
-            </div>
-          </div>
-        </div>
+        <nav className="Nav-1">
+            <a className="Link-1" href="" onClick={this.homeMenuClick}>Home</a>
+            <a className="Link-1" href="" onClick={this.bioMenuClick}>Bio</a>
+            <a className="Link-1" href="" onClick={this.workMenuClick}>Work</a>
+            <a className="Link-1" href="" onClick={this.contactMenuClick}>Contact</a>
+        </nav>
+        
         <PageSelect name={this.state.page}/>
       </div>
     );
@@ -60,18 +52,4 @@ class Menu extends React.Component {
 }
 
 export default Menu;
-
-
-/* <a className="Link-1"><Clock/></a>
-<div className="Menu">
-        <nav className="Nav-1">
-          <a className="Link-1" href="" onClick={this.homeMenuClick}>Home</a>
-          <a className="Link-1" href="" onClick={this.bioMenuClick}>Bio</a>
-          <a className="Link-1" href="" onClick={this.workMenuClick}>Work</a>
-          <a className="Link-1" href="" onClick={this.contactMenuClick}>Contact</a>
-        </nav>
-        <PageSelect name={this.state.page}/>
-      </div>
-
-
-*/
+            /*<Clock/>*/

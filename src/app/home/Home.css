@@ -1,13 +1,9 @@
-.Home {
-  text-align: center;
-}
-
 .Home-logo {
   animation: Home-logo-spin infinite 5s linear;
   height: 80px;
 }
 
-.Home-header {
+.Home {
   background-color: rgba(0,0,0,0.0);
 }
 

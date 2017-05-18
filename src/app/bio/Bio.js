@@ -5,9 +5,9 @@ function Bio(props) {
   return (
     <div className="Contents">
       <div className="Bio">
-        <div className="Bio-header">
-          <h1>My Biography</h1>
-          <div><i>Italobrasiliano</i> born in 1986 October 21, São Paulo - Brazil.</div>
+        <h1>My Biography</h1>
+        <div>
+          I am an <i>Italobrasiliano</i> born in São Paulo Brazil 1986 October 21.<br/>
         </div>
       </div>
     </div>
