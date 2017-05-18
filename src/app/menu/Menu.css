@@ -3,51 +3,72 @@
 .Menu-home { 
   font-family: Raleway;
   transition: 0.5s;
-  position: absolute;
-  width: 98.3%;
-  height: 97.5%;
+  position: relative;
+  margin:-0.4%;
+  width: 100.6%;
+  height: 100.6%;
   background-image: url("../../assets/images/valley-1347.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   background-color: black;
 }
 
 .Menu-bio { 
   font-family: Raleway;
   transition: 0.5s;
-  position: absolute;
-  width: 98.3%;
-  height: 97.5%;
+  position: relative;
+  margin:-0.4%;
+  width: 100.6%;
+  height: 100.6%;
   background-image: url("../../assets/images/sao-paulo-1346.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   background-color: black;
 }
 
 .Menu-work { 
   font-family: Raleway;
   transition: 0.5s;
-  position: absolute;
-  width: 98.3%;
-  height: 97.5%;
+  position: relative;
+  margin:-0.4%;
+  width: 100.6%;
+  height: 100.6%;
   background-image: url("../../assets/images/empty-office-1346.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   background-color: black;
 }
 
 .Menu-contact { 
   font-family: Raleway;
   transition: 0.5s;
-  position: absolute;
-  width: 98.3%;
-  height: 97.5%;
+  position: relative;
+  margin:-0.4%;
+  width: 100.6%;
+  height: 100.6%;
   background-image: url("../../assets/images/telegraph-1346.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   background-color: black;
 }
 
+.UpSpace {
+    position: relative;
+    margin: 10%;
+}
+
+.DownSpace {
+    position: relative;
+    margin: 20%;
+}
 
 .Nav-1 {
   margin-top: 10px;
@@ -83,9 +104,7 @@
   text-align: center;
   margin: auto;
   position: relative;
-  top: 0; left: 0; bottom: 0; right: 0;
   background-color: rgba(0,0,0,0.3);
-  margin-top: 10%;
   padding: 2%;
   color: white;
 }

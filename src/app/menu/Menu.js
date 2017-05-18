@@ -40,7 +40,9 @@ class Menu extends React.Component {
             <a className="Link-1" href="" onClick={this.workMenuClick}>Work</a>
             <a className="Link-1" href="" onClick={this.contactMenuClick}>Contact</a>
         </nav>        
-        <PageSelect name={this.state.page}/>
+        <div className="UpSpace"/>
+          <PageSelect name={this.state.page}/>
+        <div className="DownSpace"/>
       </div>
     );
   }
