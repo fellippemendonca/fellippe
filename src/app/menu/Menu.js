@@ -8,16 +8,12 @@ class Menu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {page: 'home'};
-    this.getState = this.getState.bind(this);
     this.homeMenuClick = this.homeMenuClick.bind(this);
     this.bioMenuClick = this.bioMenuClick.bind(this);
     this.workMenuClick = this.workMenuClick.bind(this);
     this.contactMenuClick = this.contactMenuClick.bind(this);
   }
 
-  getState(){
-    return this.props;
-  }
   homeMenuClick(e) {
     e.preventDefault();
     this.setState({page: 'home'});
@@ -37,14 +33,13 @@ class Menu extends React.Component {
 
   render() {
     return (
-      <div className="Menu">
+      <div className={"Menu-"+this.state.page}>
         <nav className="Nav-1">
             <a className="Link-1" href="" onClick={this.homeMenuClick}>Home</a>
             <a className="Link-1" href="" onClick={this.bioMenuClick}>Bio</a>
             <a className="Link-1" href="" onClick={this.workMenuClick}>Work</a>
             <a className="Link-1" href="" onClick={this.contactMenuClick}>Contact</a>
-        </nav>
-        
+        </nav>        
         <PageSelect name={this.state.page}/>
       </div>
     );
