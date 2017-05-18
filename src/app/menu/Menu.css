@@ -104,7 +104,7 @@
   text-align: center;
   margin: auto;
   position: relative;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   padding: 2%;
   color: white;
 }
@@ -116,7 +116,7 @@
   }
 
   to {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     color: white;
   }
 }

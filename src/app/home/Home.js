@@ -12,7 +12,7 @@ function Home(props) {
         <img src={logo} className="Home-logo" alt="logo" />
         <h2>Software Developer at</h2>
           <a href="http://www.viavarejo.com.br/" style={linkStyle}>
-            <img src={vvPng} className="vvPng" alt="vvPng" style={{width: 200, height: 130}} />
+            <img src={vvPng} className="vvPng" alt="vvPng" style={{width: 190, height: 130, backgroundColor:'rgba(255,255,255,0.7)'}} />
           </a>
       </div>
     </div>
