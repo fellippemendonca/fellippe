@@ -3,9 +3,9 @@
 .Menu-home {
   transition: 1s;
   position: absolute;
-  width: 99%;
-  height: 98%;
-  background-image: url("../../assets/images/valley.jpg");
+  width: 98.3%;
+  height: 97.5%;
+  background-image: url("../../assets/images/valley-1347.jpg");
   background-size: cover;
   background-position: center;
   background-color: black;
@@ -14,9 +14,9 @@
 .Menu-bio {
   transition: 1s;
   position: absolute;
-  width: 98.5%;
+  width: 98.3%;
   height: 97.5%;
-  background-image: url("../../assets/images/saoPaulo.jpg");
+  background-image: url("../../assets/images/sao-paulo-1346.jpg");
   background-size: cover;
   background-position: center;
   background-color: black;
@@ -25,9 +25,9 @@
 .Menu-work {
   transition: 1s;
   position: absolute;
-  width: 98.5%;
+  width: 98.3%;
   height: 97.5%;
-  background-image: url("../../assets/images/empty-office.jpg");
+  background-image: url("../../assets/images/empty-office-1346.jpg");
   background-size: cover;
   background-position: center;
   background-color: black;
@@ -36,9 +36,9 @@
 .Menu-contact {
   transition: 1s;
   position: absolute;
-  width: 98.5%;
+  width: 98.3%;
   height: 97.5%;
-  background-image: url("../../assets/images/telegraph.jpg");
+  background-image: url("../../assets/images/telegraph-1346.jpg");
   background-size: cover;
   background-position: center;
   background-color: black;
