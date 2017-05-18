@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
-.Menu-home {
+.Menu-home { 
+  font-family: Raleway;
   transition: 0.5s;
   position: absolute;
   width: 98.3%;
@@ -11,7 +12,8 @@
   background-color: black;
 }
 
-.Menu-bio {
+.Menu-bio { 
+  font-family: Raleway;
   transition: 0.5s;
   position: absolute;
   width: 98.3%;
@@ -22,7 +24,8 @@
   background-color: black;
 }
 
-.Menu-work {
+.Menu-work { 
+  font-family: Raleway;
   transition: 0.5s;
   position: absolute;
   width: 98.3%;
@@ -33,7 +36,8 @@
   background-color: black;
 }
 
-.Menu-contact {
+.Menu-contact { 
+  font-family: Raleway;
   transition: 0.5s;
   position: absolute;
   width: 98.3%;
@@ -52,7 +56,8 @@
   background-color: rgba(0,0,0,0.4);
 }
 
-.Link-1 {font-family: Raleway;
+.Link-1 {
+  font-family: Raleway;
   transition: 0.5s;
   color: #ffffff;
   font-size: 20px;
