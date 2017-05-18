@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css';
-import Clock from '../clock/Clock';
+//import Clock from '../clock/Clock';
 import PageSelect from '../PageSelect';
 
 
