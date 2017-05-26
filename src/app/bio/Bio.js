@@ -7,9 +7,18 @@ function Bio(props) {
       <div className="Bio">
         <h1>Biography</h1>
         <div>
-          Born in <b>São Paulo-Brazil</b>, October 1986 in a large Italian descendants family,<br/> 
+          Born in <b>São Paulo/SP-Brazil</b>, October 1986 in a large Italian descendants family,<br/> 
           originated with my great-grandparents <b>Giuseppe Filippi</b> and <b>Anna Palmieri</b> immigration to Brazil in 1911.<br/>
-          
+          They went to work in coffee farms of Ribeirão Preto/SP, married in Araraquara and moved to Rincão were born<br/>
+          Assunta Filippi, Pasquale Filippi, Raumiundo Filippi and my grandfather Herminio Filippi.<br/>
+          The years passed by and they bought a small farm in Pirangi/SP where could provide them a sustainable life and a little wealth.<br/>
+          Herminio became an adult while keep working on his family land, on his path from farm to city to buy and sell goods<br/> 
+          he met a wonderful woman Izabel Fernandes, also known as my grandmother, and they didn't take too long to get married.<br/>
+          Herminio and Izabel where living yet in the farm with the rest of the family while they had 4 kids all men, José, Antonio, Herminio, Carlo and some time later they<br/>  
+          moved to São Paulo/SP in search for a better life in the great city.<br/>
+          They had 3 more kids this time all women, Izabel, Maria, Camila(my mother) while their sons not even teenagers yet where already working at a ceramic and glass factory.<br/>
+          Camila de Lelis Fellippe is the youngest of the family and her name was inspired from a promise that my grandmother did to the Saint Camillus de Lellis.<br/>
+
         </div>
       </div>
     </div>
