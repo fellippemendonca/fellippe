@@ -18,7 +18,7 @@ function Bio(props) {
           Herminio, Carlo and some time later they moved to São Paulo/SP in search for a better and modern life in the great city.<br/>
           They had 3 more kids this time all women, Izabel, Maria, Camila(my mother) while their sons not even teenagers yet where already working at a ceramic and glass factory.<br/>
           <br/>Camila de Lelis Fellippe is the youngest of the family and her name was inspired from a promise that my grandmother did to the Saint Camillus de Lellis.<br/>
-
+          Continue...
         </div>
       </div>
     </div>
