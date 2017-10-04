@@ -16,7 +16,7 @@ function Home(props) {
         </a>
         <h2>Software Developer at</h2>
           <a href="http://kiddolabs.com/" style={linkStyle}>
-            <img src={kiddo} className="vvPng" alt="vvPng" style={{width: 190, height: 130, backgroundColor:'rgba(255,255,255,0.7)'}} />
+            <img src={kiddo} className="kiddo" alt="kiddo" style={{width: 190, height: 130, backgroundColor:'rgba(255,255,255,0.7)'}} />
           </a>
       </div>
     </div>
